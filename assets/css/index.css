@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: #50E3C2;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+    margin: 340px;
+    padding: 80px;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+
+.container {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    max-width: 640px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 35px;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 20px;
+    border: none;
+    background:rgba(162, 161, 161, 0.453);
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background:rgba(100, 99, 99, 0.453);
+}
+
+.btn-eq {
+    background:rgba(13, 255, 0, 0.453);
+}
+
+.btn-eq:hover {
+    background:rgba(115, 255, 108, 0.453);
+
+}
+
+.btn-del {
+    background:rgba(255, 0, 0, 0.453);
+}
+
+.btn-del:hover {
+    background:rgba(255, 108, 108, 0.453);
+}
