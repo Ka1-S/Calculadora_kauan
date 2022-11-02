@@ -6,12 +6,13 @@
 }
 
 body {
-    background-color: #50E3C2;
+    display: flex;
+    background-color: hsl(167, 72%, 60%);
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
-    margin: 340px;
-    padding: 80px;
+    margin: auto;
+    padding: auto;
     font-family: 'Roboto', sans-serif; 
     line-height: 1.5em;
     font-size: 1.3em;
@@ -19,22 +20,35 @@ body {
 
 
 .container {
+    text-align: center;
+    display: flex;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
-    max-width: 640px;
-    padding: 20px;
-    margin: 50px auto;
+    border: 1px auto solid rgba(209, 213, 219, 0.3);
+    max-width: 30%;
+    max-height: 50%;
+    padding: 2%;
+    margin: 100px auto ;
+}
+
+h1 {
+    font-size-adjust: auto;
+    font-display: auto;
+    font-size: larger;
 }
 
 .calculadora {
-    width: 400px;
+    border-collapse: collapse ;
+    margin: auto;
+    width: 200px;
 }
 
+
 .display {
-    font-size: 35px;
+    display: flex;
+    font-size: 25px;
     width: 100%;
     text-align: right;
     
@@ -42,7 +56,7 @@ body {
 
 .btn {
     width: 100%;
-    height: 50px;
+    height: auto;
     font-size: 1em;
     border-radius: 20px;
     border: none;
