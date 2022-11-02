@@ -39,6 +39,20 @@ h1 {
     
 }
 
+.container {
+    text-align: center;
+    display: flex;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px auto solid rgba(209, 213, 219, 0.3);
+    max-width: 30%;
+    max-height: 50%;
+    padding: 2%;
+    margin: 100px auto ;
+}
+
 .btn {
     width: 100%;
     height: auto;
